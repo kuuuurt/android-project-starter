@@ -9,16 +9,6 @@ This is the way that works for me and it might not fit yours. If what I'm doing 
 
 - Gradle Kotlin DSL
 - Kotlin
-- AndroidX
-- Material Components
-- Android Architecture Components
-    - Lifecycle and ViewModel
-    - Navigation
-        - SafeArgs
-- Retrofit
-- Moshi
-- Kotlin Coroutines
-- Dagger 2
 
 ## Using the Gradle Plugin
 
@@ -52,6 +42,19 @@ apply<CoreLibraryPlugin>()
 
 These plugins, automatically import the dependencies for each app/library module and does the necessary COMMON configurations. These are only for the same configurations per module so you don't have to copy paste each code per module. Very useful in a modular project.
 Modify them to your taste as needed (e.g. Package Names, New Libraries, Flavors and Build Types)
+
+## Libraries included in the Plugins
+
+- AndroidX
+- Material Components
+- Android Architecture Components
+    - Lifecycle and ViewModel
+    - Navigation
+        - SafeArgs
+- Retrofit
+- Moshi
+- Kotlin Coroutines
+- Dagger 2
 
 ## Using BaseFragment
 
