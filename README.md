@@ -49,7 +49,7 @@ apply<CoreLibraryPlugin>()
 ```
 
 These plugins, automatically import the dependencies for each app/library module and does the necessary COMMON configurations. These are only for the same configurations per module so you don't have to copy paste each code per module. Very useful in a modular project.
-Modify them to your taste as needed (e.g. New Libraries, Flavors and Build Types)
+Modify them to your taste as needed (e.g. Package Names, New Libraries, Flavors and Build Types)
 
 ## Using BaseFragment
 
