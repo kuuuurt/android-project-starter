@@ -1,6 +1,8 @@
 # Android Project Starter
 My starter for Android projects. 
 
+Contains base files, utils, and helpers for code reuse and ease.
+
 This is the way that works for me and it might not fit yours. If what I'm doing is bad practice, Leave an issue/suggestion for improvements. 
 
 ## Libraries and Tools Used
